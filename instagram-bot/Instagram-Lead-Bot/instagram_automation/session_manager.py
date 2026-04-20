@@ -112,43 +112,32 @@ class SessionManager:
             logger.warning(f"⚠️ فشل قراءة/تنظيف ملف الجلسة: {e}")
             return None
 
-    @staticmethod
+    @@staticmethod
     def _chromium_executable_path() -> str:
+        # ده المسار اللي إحنا حملنا فيه المتصفح يدوياً على الـ VPS
+        vps_chrome_path = "/opt/instabot/pw-browsers/chromium-1148/chrome-linux/chrome"
+        
         candidates = [
+            vps_chrome_path, # خليه أول واحد يدور فيه
             os.environ.get("CHROMIUM_PATH"),
             "/usr/bin/chromium",
             "/usr/bin/chromium-browser",
-            "/run/current-system/sw/bin/chromium",
-            "/run/current-system/sw/bin/chromium-browser",
         ]
-        store_candidates = []
-        try:
-            for name in os.listdir("/nix/store"):
-                if "chromium" not in name.lower() and "playwright" not in name.lower():
-                    continue
-                base = Path("/nix/store") / name
-                for rel in ("bin/chromium", "bin/chromium-browser"):
-                    store_candidates.append(str(base / rel))
-                try:
-                    for child in base.iterdir():
-                        if child.name.startswith("chromium-"):
-                            store_candidates.append(str(child / "chrome-linux" / "chrome"))
-                except OSError:
-                    pass
-                browsers = base / "browsers"
-                try:
-                    for child in browsers.iterdir():
-                        if child.name.startswith("chromium-"):
-                            store_candidates.append(str(child / "chrome-linux" / "chrome"))
-                except OSError:
-                    pass
-        except OSError:
-            pass
-        candidates.extend(sorted(store_candidates, reverse=True))
+        
         for candidate in candidates:
             if candidate and Path(candidate).exists() and os.access(candidate, os.X_OK):
                 return candidate
-        raise RuntimeError("Chromium executable not found.")
+        
+        # لو ملقاهوش، يدور في المسارات الافتراضية لـ Playwright
+        try:
+            import subprocess
+            result = subprocess.run(["/opt/instabot/venv/bin/python3", "-m", "playwright", "wkexec", "which", "chromium"], capture_output=True, text=True)
+            if result.return_value == 0:
+                return result.stdout.strip()
+        except:
+            pass
+
+        raise RuntimeError(f"Chromium executable not found. Checked: {candidates}")
 
     async def start(self) -> Page:
         import traceback as tb
