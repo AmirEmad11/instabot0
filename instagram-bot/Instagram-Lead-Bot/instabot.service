@@ -1,0 +1,42 @@
+[Unit]
+Description=Instagram Lead Bot — Streamlit SaaS Panel
+Documentation=file:///opt/instabot/README_VPS.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=instabot
+Group=instabot
+WorkingDirectory=/opt/instabot/instagram_automation
+
+# ── متغيرات البيئة ──
+EnvironmentFile=/opt/instabot/.env
+Environment="PLAYWRIGHT_BROWSERS_PATH=/opt/instabot/playwright_browsers"
+Environment="PATH=/opt/instabot/venv/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PYTHONUNBUFFERED=1"
+
+# ── أمر التشغيل ──
+ExecStart=/opt/instabot/venv/bin/streamlit run streamlit_app.py \
+    --server.port 8081 \
+    --server.address 0.0.0.0 \
+    --server.headless true \
+    --browser.gatherUsageStats false
+
+# ── إعادة التشغيل التلقائي ──
+Restart=always
+RestartSec=10
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+# ── ملفات السجل ──
+StandardOutput=append:/var/log/instabot/access.log
+StandardError=append:/var/log/instabot/server_errors.log
+
+# ── إعدادات الأمان ──
+NoNewPrivileges=yes
+ProtectSystem=full
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

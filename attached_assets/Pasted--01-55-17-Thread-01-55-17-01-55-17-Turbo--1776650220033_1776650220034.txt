@@ -1,0 +1,72 @@
+[01:55:17] ⚙️ Thread البوت بدأ...
+[01:55:17] 01:55:17 🚀 بدء تشغيل نظام الأتمتة | الوضع: Turbo ⚡
+[01:55:17] 01:55:17 👤 الحساب: @reale.state1101
+[01:55:17] 01:55:17 📌 المنشورات المستهدفة: 0
+[01:55:17] 01:55:17 ⚡ Turbo: تنفيذ 138 عميل محدد مسبقاً
+[01:55:19] 01:55:17 تم تهيئة قاعدة البيانات بنجاح
+[01:55:19] 01:55:17 🌐 جاري تشغيل المتصفح...
+[01:55:19] 01:55:17 🔧 جاري تهيئة Playwright...
+[01:55:25] 01:55:24 ✅ تم تشغيل Chromium بنجاح
+[01:55:25] 01:55:24 📱 وضع الموبايل: iPhone 15 Pro Max (390×844 + touch)
+[01:55:25] 01:55:24 📂 تحميل جلسة محفوظة مع تنظيف الكوكيز...
+[01:55:25] 01:55:24 🧹 تم تنظيف 11 كوكي بنجاح
+[01:55:25] 01:55:24 ✅ تم تشغيل المتصفح بنجاح
+[01:55:25] 01:55:24 🔐 جاري التحقق من تسجيل الدخول...
+[01:55:25] 01:55:24 🍪 جلسة محفوظة موجودة - فتح الصفحة الرئيسية مباشرةً...
+[01:55:30] 01:55:29 DEBUG_SCREENSHOT:/home/runner/workspace/instagram-bot/Instagram-Lead-Bot/instagram_automation/debug_homepage.p
+[01:55:30] 01:55:29 📸 لقطة الصفحة الرئيسية: /home/runner/workspace/instagram-bot/Instagram-Lead-Bot/instagram_automation/debug_hom
+[01:55:30] 01:55:29 🌐 URL الحالي: https://www.instagram.com/
+[01:55:30] 01:55:29 ✅ تسجيل الدخول مؤكد: عنصر 'a[href="/direct/inbox/"]' موجود
+[01:55:30] 01:55:29 ✅ الجلسة سارية - لم يُفتح صفحة الدخول إطلاقاً
+[01:55:30] 01:55:29 🔔 فحص النوافذ المنبثقة بعد تسجيل الدخول...
+[01:55:30] 01:55:29 [✅] لا توجد نوافذ منبثقة
+[01:55:30] 01:55:29 تم تحديث قوالب الرسائل (4 قالب)
+[01:55:30] 01:55:29 الرد التلقائي على الخاصة: معطّل
+[01:55:30] 01:55:29 📨 الرسائل المرسلة اليوم: 0/200
+[01:55:30] 01:55:29 ⚡ Turbo Mode: بدء إرسال 138 عميل
+[01:55:30] 01:55:29 ⏱️ التأخير بين كل عميل: 15-25 ثانية، وراحة 60-120 ثانية بعد كل 10 رسائل
+[01:55:30] 01:55:29 ⚡ [1/138] معالجة: @maysa.mohamed41
+[01:55:30] 01:55:29 تمت إضافة العميل الجديد: @maysa.mohamed41
+[01:55:38] [🔒] حساب خاص: @maysa.mohamed41 | طلب متابعة مُرسل
+[01:55:41] [❌] 01:55:40 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_profile_view_maysa.mohame_20260420_015540.
+[01:55:41] [🔒] حساب خاص: @maysa.mohamed41 | طلب متابعة مُرسل
+[01:55:41] 01:55:40 [🔍] JS DEBUG — كل الأزرار في أول 300px لـ @maysa.mohamed41:
+[01:55:41] 01:55:40 [A] aria='None' text='' pos=(350,10) size=24x24 svg=True
+[01:55:41] 01:55:40 [SPAN] aria='None' text='' pos=(350,10) size=24x24 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(70,78) size=34x32 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(70,78) size=34x32 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(78,86) size=18x16 svg=True
+[01:55:41] 01:55:40 [SPAN] aria='None' text='0' pos=(259,121) size=10x18 svg=False
+[01:55:41] 01:55:40 [DIV] aria='None' text='155 متابع' pos=(114,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [A] aria='None' text='155 متابع' pos=(114,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='155 متابع' pos=(114,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='155' pos=(114,121) size=30x18 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='155' pos=(114,121) size=30x18 svg=False
+[01:55:41] 01:55:40 [DIV] aria='None' text='287 أتابع' pos=(52,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [A] aria='None' text='287 أتابع' pos=(52,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='287 أتابع' pos=(52,121) size=30x36 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='287' pos=(52,121) size=30x18 svg=False
+[01:55:41] 01:55:40 [SPAN] aria='None' text='287' pos=(52,121) size=30x18 svg=False
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(223,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(233,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(58,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(68,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-107,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-97,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-272,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-262,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-437,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-427,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-602,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-592,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-767,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-757,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [DIV] aria='None' text='' pos=(-932,273) size=37x41 svg=True
+[01:55:41] 01:55:40 [DIV] aria='تجاهل' text='' pos=(-922,284) size=15x18 svg=True
+[01:55:41] 01:55:40 [🎯] 3-Dots: Selectors فشلت → إحداثيات موسّعة لـ @maysa.mohamed41
+[01:55:41] [❌] 01:55:40 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_before_coords_maysa.mohame_20260420_015540
+[01:55:59] 01:55:57 [⏱️] 15 ثانية انتهت لـ 3-Dots @maysa.mohamed41
+[01:55:59] [⚠️] 01:55:57 [⚠️] 3-Dots: فشل تام لـ @maysa.mohamed41 → Direct Fallback
+[01:55:59] 01:55:57 [🚀] Direct Link Mandatory Fallback → /direct/t/maysa.mohamed41/
+[01:55:59] [❌] 01:55:57 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_direct_fallback_maysa.mohame_20260420_0155
+[01:56:11] [⏭] تخطي: @maysa.mohamed41

@@ -1,0 +1,70 @@
+[01:48:10] ⚙️ Thread البوت بدأ...
+[01:48:10] 01:48:10 🚀 بدء تشغيل نظام الأتمتة | الوضع: Turbo ⚡
+[01:48:10] 01:48:10 👤 الحساب: @reale.state1101
+[01:48:10] 01:48:10 📌 المنشورات المستهدفة: 0
+[01:48:10] 01:48:10 ⚡ Turbo: تنفيذ 138 عميل محدد مسبقاً
+[01:48:11] 01:48:10 تم تهيئة قاعدة البيانات بنجاح
+[01:48:11] 01:48:10 🌐 جاري تشغيل المتصفح...
+[01:48:11] 01:48:10 🔧 جاري تهيئة Playwright...
+[01:48:18] 01:48:17 ✅ تم تشغيل Chromium بنجاح
+[01:48:18] 01:48:17 📱 وضع الموبايل: iPhone 15 Pro Max (390×844 + touch)
+[01:48:18] 01:48:17 📂 تحميل جلسة محفوظة مع تنظيف الكوكيز...
+[01:48:18] 01:48:17 🧹 تم تنظيف 11 كوكي بنجاح
+[01:48:18] 01:48:17 ✅ تم تشغيل المتصفح بنجاح
+[01:48:18] 01:48:17 🔐 جاري التحقق من تسجيل الدخول...
+[01:48:18] 01:48:17 🍪 جلسة محفوظة موجودة - فتح الصفحة الرئيسية مباشرةً...
+[01:48:22] 01:48:21 DEBUG_SCREENSHOT:/home/runner/workspace/instagram-bot/Instagram-Lead-Bot/instagram_automation/debug_homepage.p
+[01:48:22] 01:48:21 📸 لقطة الصفحة الرئيسية: /home/runner/workspace/instagram-bot/Instagram-Lead-Bot/instagram_automation/debug_hom
+[01:48:22] 01:48:21 🌐 URL الحالي: https://www.instagram.com/
+[01:48:22] 01:48:21 ✅ تسجيل الدخول مؤكد: عنصر 'a[href="/direct/inbox/"]' موجود
+[01:48:22] 01:48:21 ✅ الجلسة سارية - لم يُفتح صفحة الدخول إطلاقاً
+[01:48:22] 01:48:21 🔔 فحص النوافذ المنبثقة بعد تسجيل الدخول...
+[01:48:22] 01:48:21 [✅] لا توجد نوافذ منبثقة
+[01:48:22] 01:48:21 تم تحديث قوالب الرسائل (4 قالب)
+[01:48:22] 01:48:21 الرد التلقائي على الخاصة: معطّل
+[01:48:22] 01:48:21 📨 الرسائل المرسلة اليوم: 0/200
+[01:48:22] 01:48:21 ⚡ Turbo Mode: بدء إرسال 138 عميل
+[01:48:22] 01:48:21 ⏱️ التأخير بين كل عميل: 15-25 ثانية، وراحة 60-120 ثانية بعد كل 10 رسائل
+[01:48:22] 01:48:21 ⚡ [1/138] معالجة: @mohamed.farrag.397
+[01:48:22] 01:48:22 تمت إضافة العميل الجديد: @mohamed.farrag.397
+[01:48:30] [🔒] حساب خاص: @mohamed.farrag.397 | طلب متابعة مُرسل
+[01:48:32] [❌] 01:48:32 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_profile_view_mohamed.farr_20260420_014832.
+[01:48:32] [🔒] حساب خاص: @mohamed.farrag.397 | طلب متابعة مُرسل
+[01:48:32] 01:48:32 [🔍] JS DEBUG — كل الأزرار في أول 300px لـ @mohamed.farrag.397:
+[01:48:32] 01:48:32 [A] aria='None' text='' pos=(350,10) size=24x24 svg=True
+[01:48:32] 01:48:32 [A] aria='None' text='' pos=(297,79) size=77x77 svg=False
+[01:48:32] 01:48:32 [A] aria='None' text='mohamed.farrag.' pos=(91,77) size=178x32 svg=False
+[01:48:32] 01:48:32 [DIV] aria='None' text='' pos=(57,78) size=34x32 svg=True
+[01:48:32] 01:48:32 [A] aria='None' text='62 متابع' pos=(166,121) size=30x36 svg=False
+[01:48:32] 01:48:32 [A] aria='None' text='381 أتابع' pos=(104,121) size=30x36 svg=False
+[01:48:32] 01:48:32 [A] aria='None' text='mohamed.farrag.' pos=(177,207) size=197x16 svg=True
+[01:48:32] 01:48:32 [BUTTON] aria='None' text='أتابع' pos=(212,235) size=162x32 svg=True
+[01:48:32] 01:48:32 [DIV] aria='None' text='مراسلة' pos=(52,235) size=156x32 svg=False
+[01:48:32] 01:48:32 [DIV] aria='None' text='' pos=(16,235) size=32x32 svg=True
+[01:48:32] 01:48:32 [A] aria='None' text='عرض الكل' pos=(16,295) size=77x18 svg=False
+[01:48:32] 01:48:32 [🎯] 3-Dots: Selectors فشلت → إحداثيات موسّعة لـ @mohamed.farrag.397
+[01:48:32] [❌] 01:48:32 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_before_coords_mohamed.farr_20260420_014832
+[01:48:49] 01:48:49 [⏱️] 15 ثانية انتهت لـ 3-Dots @mohamed.farrag.397
+[01:48:49] [⚠️] 01:48:49 [⚠️] 3-Dots: فشل تام لـ @mohamed.farrag.397 → Direct Fallback
+[01:48:49] 01:48:49 [🚀] Direct Link Mandatory Fallback → /direct/t/mohamed.farrag.397/
+[01:48:49] [❌] 01:48:49 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_direct_fallback_mohamed.farr_20260420_0148
+[01:49:02] [⏭] تخطي: @mohamed.farrag.397
+[01:49:27] 01:49:26 ⚡ [2/138] معالجة: @soheerelghitany
+[01:49:27] 01:49:26 تمت إضافة العميل الجديد: @soheerelghitany
+[01:49:35] [🔒] حساب خاص: @soheerelghitany | طلب متابعة مُرسل
+[01:49:38] [❌] 01:49:37 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_profile_view_soheerelghit_20260420_014937.
+[01:49:38] [🔒] حساب خاص: @soheerelghitany | طلب متابعة مُرسل
+[01:49:38] 01:49:37 [🔍] JS DEBUG — كل الأزرار في أول 300px لـ @soheerelghitany:
+[01:49:38] 01:49:37 [A] aria='None' text='' pos=(350,10) size=24x24 svg=True
+[01:49:38] 01:49:37 [A] aria='None' text='' pos=(297,79) size=77x77 svg=False
+[01:49:38] 01:49:37 [A] aria='None' text='soheerelghitany' pos=(132,77) size=137x32 svg=False
+[01:49:38] 01:49:37 [DIV] aria='None' text='' pos=(98,78) size=34x32 svg=True
+[01:49:38] 01:49:37 [A] aria='None' text='34 متابع' pos=(166,121) size=30x36 svg=False
+[01:49:38] 01:49:37 [A] aria='None' text='101 أتابع' pos=(104,121) size=30x36 svg=False
+[01:49:38] 01:49:37 [BUTTON] aria='None' text='تم الطلب' pos=(16,215) size=358x32 svg=False
+[01:49:38] 01:49:37 [🎯] 3-Dots: Selectors فشلت → إحداثيات موسّعة لـ @soheerelghitany
+[01:49:38] [❌] 01:49:37 تم حفظ لقطة الشاشة عند الخطأ: screenshots/debug_before_coords_soheerelghit_20260420_014937
+[01:49:43] 01:49:42 [✅] قائمة + رسالة بإحداثيات (115, 80) لـ @soheerelghitany
+[01:49:46] 01:49:44 [💬] وُجد 'إرسال رسالة' في القائمة لـ @soheerelghitany
+[01:49:46] 01:49:45 [💬] 3-Dots → Send Message ضُغط (force=True) لـ @soheerelghitany
+[01:49:47] 01:49:46 [✅] 3-Dots Direct Redirect مؤكد → @soheerelghitany | https://www.instagram.com/direct/t/17842402223107854

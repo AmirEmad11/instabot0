@@ -1,0 +1,22 @@
+kind = "web"
+previewPath = "/"
+title = "Bot Dashboard"
+version = "1.0.0"
+id = "artifacts/bot-dashboard"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25712
+
+[services.development]
+run = "cd /home/runner/workspace/instagram-bot/Instagram-Lead-Bot/instagram_automation && PLAYWRIGHT_BROWSERS_PATH=/home/runner/workspace/pw-browsers PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS=true python3 -m streamlit run streamlit_app.py --server.port 25712 --server.address 0.0.0.0 --server.headless true --server.enableCORS false --server.enableXsrfProtection false"
+
+[services.env]
+PORT = "25712"
+BASE_PATH = "/"
